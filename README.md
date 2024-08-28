@@ -77,7 +77,7 @@ the search engines.
 If you use an alternative name for your production environment you can set INDEXNOW_PRODUCTION_ENV in your .env 
 to match. 
 
-You can disable this by setting INDEXNOW_PRODUCTION_ENV to false.
+You can disable this by setting INDEXNOW_LOG_FAILED_SUBMITS to false.
 
 ## Usage
 You can submit one or more pages per request by calling the facade and passing the url(s) to the submit method.
